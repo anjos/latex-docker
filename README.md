@@ -3,10 +3,11 @@
 To use it, just do:
 
 ```sh
-$ docker run -v $(pwd):/work -it --rm anjos/latex:latest
+$ docker run -v $(pwd):/work -it -v $(pwd):/work --rm anjos/latex:latest
 ```
 
-This will start the image
+This will start the image on the ``/work`` directory.  Then, just do business
+as usual.
 
 
 ## Building instructions
