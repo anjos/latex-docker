@@ -1,7 +1,5 @@
-.. image:: https://travis-ci.org/anjos/latex-docker.svg?branch=master
-   :target: https://travis-ci.org/anjos/latex-docker
-.. image:: https://img.shields.io/docker/pulls/anjos/latex.svg
-   :target: https://hub.docker.com/r/anjos/latex/
+[![ci](https://github.com/anjos/latex-docker/workflows/ci/badge.svg)](https://github.com/anjos/latex-docker/actions/workflows/ci.yml)
+[![docker](https://img.shields.io/docker/pulls/anjos/latex.svg)](https://hub.docker.com/r/anjos/latex)
 
 # Dockerized LaTeX Environment
 
