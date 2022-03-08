@@ -1,16 +1,27 @@
+.. image:: https://travis-ci.org/anjos/latex-docker.svg?branch=master
+   :target: https://travis-ci.org/anjos/latex-docker
+.. image:: https://img.shields.io/docker/pulls/anjos/latex.svg
+   :target: https://hub.docker.com/r/anjos/latex/
+
+# Dockerized LaTeX Environment
+
+Dockerfile and instructions for a LaTeX builder container based on the latest
+stable Debian release.
+
+
 ## Deployment instructions
 
 To use it, just do:
 
 ```sh
-$ docker run -v $(pwd):/work -it -v $(pwd):/work --rm anjos/latex:latest
+$ docker run -it --rm anjos/latex
 ```
-
-This will start the image on the ``/work`` directory.  Then, just do business
-as usual.
 
 
 ## Building instructions
+
+> GitHub Actions are setup to build and deploy multi-architecture containers
+> for this Dockerfile.
 
 To build a readily deployable docker image on the current platform, do:
 
