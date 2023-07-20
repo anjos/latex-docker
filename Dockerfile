@@ -11,6 +11,7 @@ RUN apt-get update && \
   openssh-client \
   make \
   python3-pygments \
+  python3-venv \
   python-is-python3 && \
   apt-get remove --purge -y .\*-doc$ && \
   apt-get clean -y && \
